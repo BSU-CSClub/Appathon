@@ -28,6 +28,8 @@ Posts
 	addedDate date nn,
 	deletedDate data,
 	isDeleted bool nn,
+	isGeoCache bool,
+	geocache_id uuid,
 
 Comment 
 	cmnt_id uuid pknn,
