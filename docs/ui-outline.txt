@@ -1,0 +1,32 @@
+Screens
+
+REQUIRED
+
+Log In
+
+Map
+
+View Post
+
+Write Post
+
+Write Comment
+
+Settings
+
+My Posts
+
+My Upvotes
+
+PRIORITY WISHLIST
+
+My Friends
+
+
+WISHLIST
+
+My Geocaches
+
+
+
+
