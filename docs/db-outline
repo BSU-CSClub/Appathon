@@ -1,0 +1,33 @@
+Upvotes
+	voter uuid fk nn,
+	post uuid fk nn,
+	constraint ck voter, post
+
+Users
+	email text nn,
+	name text nn, 
+	FBoAuth2ID int,
+	user_id uuid pk nn,
+
+Posts
+	postid uuid pk nn,
+	title text nn,
+	contents text nn,
+	location text nn,
+	range int nn,
+	votes int nn,
+	author uuid fk nn,
+	image_id uuid fk,
+
+Comment 
+	cmnt_id uuid pknn,
+	post_id uuid fk nn,
+	image-id uuid fk,
+	content text nn,
+	user_id text
+
+Images
+	uploadee uuid fk
+	data blob,
+	post uuid fk,
+	imageid uuid pk,
