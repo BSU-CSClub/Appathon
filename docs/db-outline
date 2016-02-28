@@ -9,11 +9,12 @@ Upvotes
 Users
 	email text nn,
 	name text nn, 
-	FBoAuth2ID int,
+	FBoAuth2ID int,	//OOS-planned
 	user_id uuid pk nn,
 	addedDate date nn,
 	deletedDate data,
-	isDeleted bool nn;
+	isDeleted bool nn,
+	salted_hash_of_password text nn,
 
 Posts
 	postid uuid pk nn,
