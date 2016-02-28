@@ -2,12 +2,18 @@ Upvotes
 	voter uuid fk nn,
 	post uuid fk nn,
 	constraint ck voter, post
+	addedDate date nn,
+	deletedDate data,
+	isDeleted bool nn,
 
 Users
 	email text nn,
 	name text nn, 
 	FBoAuth2ID int,
 	user_id uuid pk nn,
+	addedDate date nn,
+	deletedDate data,
+	isDeleted bool nn;
 
 Posts
 	postid uuid pk nn,
@@ -18,6 +24,9 @@ Posts
 	votes int nn,
 	author uuid fk nn,
 	image_id uuid fk,
+	addedDate date nn,
+	deletedDate data,
+	isDeleted bool nn,
 
 Comment 
 	cmnt_id uuid pknn,
@@ -25,9 +34,15 @@ Comment
 	image-id uuid fk,
 	content text nn,
 	user_id text
+	addedDate date nn,
+	deletedDate date,
+	isDeleted bool nn,
 
 Images
 	uploadee uuid fk
 	data blob,
 	post uuid fk,
 	imageid uuid pk,
+	addedDate date nn,
+	deletedDate data,
+	isDeleted bool nn,
