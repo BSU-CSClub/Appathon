@@ -10,10 +10,11 @@ namespace Appathon
 	public class App : Application
 	{
 		public static EventAggregator AppEventAggregator { get; set; }
-		
+		public static SecurityResolver User { get; set; } 
 		public App ()
 		{
 			App.AppEventAggregator = new EventAggregator ();
+			App.AppEventAggregator.GetEvent<SecurityResolverChangedEvent> ().Subscribe ((resolver) => App.User = resolver);
 
 			// The root page of your application
 			MainPage = new ShellView();

@@ -9,7 +9,9 @@ namespace Appathon.Data
 	public class MockController : IController
 	{
 		public MockController ()
-		{
+		{			
+
+
 		}
 
 		public bool ValidateUser()
