@@ -4,7 +4,7 @@ using Android.OS;
 
 namespace Appathon
 {
-	[Activity (Label = "Appathon", MainLauncher = true, Icon = "@mipmap/icon")]
+	[Activity (Label = "Appathon", Icon = "@mipmap/icon")]
 	public class MainActivity : Activity
 	{
 		int count = 1;
