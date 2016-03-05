@@ -12,7 +12,8 @@ xmlns:views="clr-namespace:Appathon.Forms;assembly=Appathon">
 					 <DataTemplate>
 					 	<ViewCell>					 		
 					 			<StackLayout Padding="5">
-					 				<Label Text="{Binding Content}"/>
+					 				<Label Text="{Binding PostModel.Title}" />
+					 				<Label Text="{Binding PostModel.Content}"/>
 					 			</StackLayout>					 		
 					 	</ViewCell>
 					 </DataTemplate>

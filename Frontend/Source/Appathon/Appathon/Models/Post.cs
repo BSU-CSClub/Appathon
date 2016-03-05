@@ -10,9 +10,9 @@ namespace Appathon.Models
 
 		public string Contents { get; set; }
 
-		public Image ImageItem { get; set; }
+		public Guid ImageId { get; set; }
 
-		public User Author { get; set; } 
+		public Guid AuthorId { get; set; } 
 
 
 	}

@@ -7,12 +7,16 @@ namespace Appathon.ViewModels
 
 	public class PostViewModel : ViewModelBase
 	{
-		public string Content { get; set; }
+		public Post PostModel { get; set; }
 
 		public PostViewModel ()
-		{
-			this.Content = Guid.NewGuid ().ToString ().Substring (0, 8);
+		{			
 		}			
+
+		public PostViewModel(Post model)
+		{
+			this.PostModel = model;	
+		}
 
 	}
 }

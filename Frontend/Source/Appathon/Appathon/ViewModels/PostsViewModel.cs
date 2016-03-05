@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Collections.Generic;
-
+using System.Linq;
 
 namespace Appathon.ViewModels
 {
@@ -14,11 +14,14 @@ namespace Appathon.ViewModels
 		public PostsViewModel ()
 		{
 			this.Posts = new List<PostViewModel> ();
-			for (int i = 0; i < 5; i++) {
-				this.Posts.Add (new PostViewModel ());
-			}
-			App.AppEventAggregator.GetEvent<PostsUpdatedEvent> ().Publish (this.Posts);
+			this.RefreshPosts ();
 		}			
+
+		private void RefreshPosts()
+		{
+			this.Posts = App.AppController.GetPosts ().Select(t => new PostViewModel(t)).ToList();
+			App.AppEventAggregator.GetEvent<PostsUpdatedEvent> ().Publish (this.Posts);
+		}
 
 	}
 }
