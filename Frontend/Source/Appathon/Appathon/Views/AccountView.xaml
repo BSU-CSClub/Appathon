@@ -5,8 +5,8 @@
 			<Label Text="Username" 
 				HorizontalOptions="Center"
 				FontSize="30"/>
-			<Button Text="My Posts" />
-			<Button Text="My Uploads" />
+			<Button Text="My Posts" Command="{Binding NavigateMyPostsCommand}" />
+			<Button Text="My Upvotes" Command="{Binding NavigateMyUpvotesCommand}" />
 			<Button Text="Notifications" />
 
 			<Button Text="Logout" Command="{Binding LogoutCommand}" />
