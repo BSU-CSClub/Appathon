@@ -8,13 +8,13 @@ namespace Appathon.Models
 
 		public string Title { get; set; }
 
+		public DateTime AddedDateTime { get; set; }
+
 		public string Contents { get; set; }
 
 		public Guid ImageId { get; set; }
 
 		public Guid AuthorId { get; set; } 
-
-
 	}
 }
 

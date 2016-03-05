@@ -19,7 +19,7 @@ namespace Appathon.ViewModels
 
 		private void RefreshPosts()
 		{
-			this.Posts = App.AppController.GetPosts ().Select(t => new PostViewModel(t)).ToList();
+			this.Posts = App.AppController.GetPosts ().OrderByDescending(t => t.AddedDateTime).Select(t => new PostViewModel(t)).ToList();
 			App.AppEventAggregator.GetEvent<PostsUpdatedEvent> ().Publish (this.Posts);
 		}
 
