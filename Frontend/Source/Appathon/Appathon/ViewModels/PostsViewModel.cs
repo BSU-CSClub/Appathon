@@ -1,24 +1,18 @@
 ﻿using System;
 using System.ComponentModel;
-using System.Collections.Generic;
 
-
-namespace Appathon.ViewModels
+namespace Appathon
 {
 	using Models;
 
-	public class PostsViewModel : ViewModelBase
+	public class PostsViewModel : INotifyPropertyChanged
 	{
-		List<PostViewModel> Posts { get; set; }
-
 		public PostsViewModel ()
 		{
-			this.Posts = new List<PostViewModel> ();
-			for (int i = 0; i < 5; i++) {
-				this.Posts.Add (new PostViewModel ());
-			}
-			App.AppEventAggregator.GetEvent<PostsUpdatedEvent> ().Publish (this.Posts);
-		}			
+		}
+
+
+		public event PropertyChangedEventHandler PropertyChanged;
 
 	}
 }
