@@ -7,18 +7,9 @@ xmlns:views="clr-namespace:Appathon.Forms;assembly=Appathon">
 				<RowDefinition Height="Auto"/>
 				<RowDefinition Height="*"/>
 			</Grid.RowDefinitions>			
-			<ListView x:Name="Posts" Grid.Row="1" HasUnevenRows="true">
-				<ListView.ItemTemplate>
-					 <DataTemplate>
-					 	<ViewCell>					 		
-					 			<StackLayout Padding="5">
-					 				<Label Text="{Binding PostModel.Title}" />
-					 				<Label Text="{Binding PostModel.Content}"/>
-					 			</StackLayout>					 		
-					 	</ViewCell>
-					 </DataTemplate>
-				</ListView.ItemTemplate>
-			</ListView>
+			<ScrollView>
+				<StackLayout x:Name="Posts" Grid.Row="1" />						
+			</ScrollView>
 		</Grid>
 	</ContentView.Content>
 </ContentView>

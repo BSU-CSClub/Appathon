@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 
 using Xamarin.Forms;
 
@@ -21,7 +22,11 @@ namespace Appathon
 
 		private void UpdatePostDisplay(List<PostViewModel> posts)
 		{
-			this.Posts.ItemsSource = posts;
+			this.Posts.Children.Clear ();
+			List<PostView> views = posts.Select (t => new PostView (){ BindingContext = t }).ToList ();
+			foreach (View view in views) {
+				this.Posts.Children.Add (view);
+			}
 		}
 	}
 }
