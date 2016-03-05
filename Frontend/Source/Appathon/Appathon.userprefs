@@ -1,26 +1,9 @@
-﻿<Properties StartupItem="Droid\Appathon.Droid.csproj" RefactoringSettings.EnableRefactorings="True">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 5 (KitKat) Xamarin" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Appathon\Data\MockController.cs">
+﻿<Properties StartupItem="Droid/Appathon.Droid.csproj" RefactoringSettings.EnableRefactorings="True">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 5 (Lollipop)" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Appathon/ViewModels/ShellViewModel.cs">
     <Files>
-      <File FileName="Appathon\ViewModels\ShellViewModel.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Appathon\Views\ShellView.xaml" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Appathon\ViewModels\AccountViewModel.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Appathon\Views\AccountView.xaml" Line="9" Column="1" NotebookId="1" />
-      <File FileName="Appathon\Views\AccountView.xaml.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Appathon\Views\PostsView.xaml" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Appathon\Views\NavigationView.xaml" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Appathon\Views\NavigationView.xaml.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Appathon\ViewModels\NavigationViewModel.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="Appathon\Data\MockController.cs" Line="9" Column="2" NotebookId="1" />
-      <File FileName="Appathon\Views\CreatePostView.xaml" Line="5" Column="25" NotebookId="1" />
+      <File FileName="Appathon/ViewModels/ShellViewModel.cs" Line="27" Column="16" />
     </Files>
-    <FloatingWindows>
-      <FloatingWindow WindowId="1" X="1672" Y="160" Width="1366" Height="745">
-        <Files>
-          <File FileName="Appathon\Models\Post.cs" Line="14" Column="3" />
-        </Files>
-      </FloatingWindow>
-    </FloatingWindows>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

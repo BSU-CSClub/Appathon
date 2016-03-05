@@ -4,10 +4,21 @@
 	xmlns:sys="clr-namespace:System;assembly=mscorlib"
  	x:Class="Appathon.LoginView">
 	<ContentView.Content>
-		<StackLayout>
-			<Label Text="Enter Username"/>
-			<Label Text="Enter Password"/>
-			<Button Text= "Log In" 
+		<StackLayout Padding="10,20">
+			<Label Text="Log In"
+				HorizontalOptions="Center"
+				IsVisible="true"
+				FontSize="30"
+				TextColor="#eee" />
+			<Entry Placeholder="Email" 
+				TextColor="#333"
+				BackgroundColor="#eee" 
+				WidthRequest="300"/>
+			<Entry Placeholder="Password" 
+				IsPassword="true" 
+				TextColor="#333" 
+				BackgroundColor="#eee" />
+			<Button Text= "Submit" 
 				Command="{Binding LogInAndSwitchToPostsCommand}"/>
 		</StackLayout>
 	</ContentView.Content>
