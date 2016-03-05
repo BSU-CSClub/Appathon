@@ -7,6 +7,9 @@
 /Users/Nathaniel/Desktop/Appathon/Frontend/Source/Appathon/Droid/obj/Debug/assemblies/Xamarin.Forms.Core.dll
 /Users/Nathaniel/Desktop/Appathon/Frontend/Source/Appathon/Droid/obj/Debug/assemblies/Xamarin.Forms.Platform.Android.dll
 /Users/Nathaniel/Desktop/Appathon/Frontend/Source/Appathon/Droid/obj/Debug/assemblies/Xamarin.Forms.Xaml.dll
+/Users/Nathaniel/Desktop/Appathon/Frontend/Source/Appathon/Droid/obj/Debug/assemblies/System.Net.Http.Extensions.dll
+/Users/Nathaniel/Desktop/Appathon/Frontend/Source/Appathon/Droid/obj/Debug/assemblies/System.Net.Http.Primitives.dll
+/Users/Nathaniel/Desktop/Appathon/Frontend/Source/Appathon/Droid/obj/Debug/assemblies/System.Net.Http.dll
 /Users/Nathaniel/Desktop/Appathon/Frontend/Source/Appathon/Droid/obj/Debug/assemblies/System.Core.dll
 /Users/Nathaniel/Desktop/Appathon/Frontend/Source/Appathon/Droid/obj/Debug/assemblies/mscorlib.dll
 /Users/Nathaniel/Desktop/Appathon/Frontend/Source/Appathon/Droid/obj/Debug/assemblies/System.Collections.Concurrent.dll
@@ -60,7 +63,6 @@
 /Users/Nathaniel/Desktop/Appathon/Frontend/Source/Appathon/Droid/obj/Debug/assemblies/System.Xml.XmlSerializer.dll
 /Users/Nathaniel/Desktop/Appathon/Frontend/Source/Appathon/Droid/obj/Debug/assemblies/System.Runtime.Serialization.dll
 /Users/Nathaniel/Desktop/Appathon/Frontend/Source/Appathon/Droid/obj/Debug/assemblies/System.ServiceModel.Internals.dll
-/Users/Nathaniel/Desktop/Appathon/Frontend/Source/Appathon/Droid/obj/Debug/assemblies/System.Net.Http.dll
 /Users/Nathaniel/Desktop/Appathon/Frontend/Source/Appathon/Droid/obj/Debug/assemblies/System.ComponentModel.DataAnnotations.dll
 /Users/Nathaniel/Desktop/Appathon/Frontend/Source/Appathon/Droid/obj/Debug/assemblies/System.Numerics.dll
 /Users/Nathaniel/Desktop/Appathon/Frontend/Source/Appathon/Droid/obj/Debug/assemblies/System.ComponentModel.Composition.dll

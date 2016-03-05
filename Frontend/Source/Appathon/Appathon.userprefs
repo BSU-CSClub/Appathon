@@ -1,8 +1,12 @@
 ﻿<Properties StartupItem="Droid/Appathon.Droid.csproj" RefactoringSettings.EnableRefactorings="True">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 5 (Lollipop)" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Appathon/ViewModels/ShellViewModel.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus 5 (KitKat)" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Appathon/Data/MockController.cs">
     <Files>
-      <File FileName="Appathon/ViewModels/ShellViewModel.cs" Line="27" Column="16" />
+      <File FileName="Appathon/Data/MockController.cs" Line="86" Column="1" />
+      <File FileName="Appathon/ViewModels/MyPostsViewModel.cs" Line="6" Column="3" NotebookId="1" />
+      <File FileName="Appathon/Views/MyPostsView.xaml" Line="7" Column="1" NotebookId="1" />
+      <File FileName="Appathon/Views/MyPostsView.xaml.cs" Line="12" Column="10" NotebookId="1" />
+      <File FileName="Appathon/ViewModels/AccountViewModel.cs" Line="1" Column="1" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
