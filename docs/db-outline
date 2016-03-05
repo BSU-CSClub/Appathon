@@ -49,3 +49,17 @@ Images
 	addedDate date nn,
 	deletedDate data,
 	isDeleted bool nn,
+	
+Notifications
+	UserId uuid pk
+	PostId uuid
+	CommentId uuid
+	SenderId uuid
+	Message text
+	AddedDate Date
+	
+Badges
+	UserId uuid pk
+	BadgeMessage Text
+	AddedDate Date
+
