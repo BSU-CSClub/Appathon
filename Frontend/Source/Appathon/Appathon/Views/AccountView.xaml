@@ -8,7 +8,6 @@
 			<Button Text="My Posts" Command="{Binding NavigateMyPostsCommand}" />
 			<Button Text="My Upvotes" Command="{Binding NavigateMyUpvotesCommand}" />
 			<Button Text="Notifications" />
-			<!-- test -->
 
 			<Button Text="Logout" Command="{Binding LogoutCommand}" />
 		</StackLayout>
